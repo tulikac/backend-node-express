@@ -25,6 +25,12 @@ npm test
 .\scripts\verify.ps1 -BaseUrl http://localhost:8080
 ```
 
+## Builder Apps configuration
+
+The root `builder.yaml` declares one public Node.js web component. It uses the
+repository root, starts through the existing `npm start` script, listens on port
+`8080`, and reports readiness through `/health`.
+
 ## Routes
 
 | Route | Purpose |
