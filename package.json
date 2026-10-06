@@ -1,0 +1,17 @@
+{
+  "name": "backend-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Conventional Express backend used to evaluate Builder Apps startup detection.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
